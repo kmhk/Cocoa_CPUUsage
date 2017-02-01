@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F370CE5F1E4184B900CE53DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F370CE5E1E4184B900CE53DB /* AppDelegate.m */; };
+		F370CE621E4184B900CE53DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F370CE611E4184B900CE53DB /* main.m */; };
+		F370CE641E4184B900CE53DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F370CE631E4184B900CE53DB /* Assets.xcassets */; };
+		F370CE671E4184B900CE53DB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F370CE651E4184B900CE53DB /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F370CE5A1E4184B900CE53DB /* HardwareInformation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HardwareInformation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F370CE5D1E4184B900CE53DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F370CE5E1E4184B900CE53DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F370CE611E4184B900CE53DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F370CE631E4184B900CE53DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F370CE661E4184B900CE53DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F370CE681E4184B900CE53DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F370CE571E4184B900CE53DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F370CE511E4184B900CE53DB = {
+			isa = PBXGroup;
+			children = (
+				F370CE5C1E4184B900CE53DB /* HardwareInformation */,
+				F370CE5B1E4184B900CE53DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F370CE5B1E4184B900CE53DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F370CE5A1E4184B900CE53DB /* HardwareInformation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F370CE5C1E4184B900CE53DB /* HardwareInformation */ = {
+			isa = PBXGroup;
+			children = (
+				F370CE5D1E4184B900CE53DB /* AppDelegate.h */,
+				F370CE5E1E4184B900CE53DB /* AppDelegate.m */,
+				F370CE631E4184B900CE53DB /* Assets.xcassets */,
+				F370CE651E4184B900CE53DB /* MainMenu.xib */,
+				F370CE681E4184B900CE53DB /* Info.plist */,
+				F370CE601E4184B900CE53DB /* Supporting Files */,
+			);
+			path = HardwareInformation;
+			sourceTree = "<group>";
+		};
+		F370CE601E4184B900CE53DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F370CE611E4184B900CE53DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F370CE591E4184B900CE53DB /* HardwareInformation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F370CE6B1E4184B900CE53DB /* Build configuration list for PBXNativeTarget "HardwareInformation" */;
+			buildPhases = (
+				F370CE561E4184B900CE53DB /* Sources */,
+				F370CE571E4184B900CE53DB /* Frameworks */,
+				F370CE581E4184B900CE53DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HardwareInformation;
+			productName = HardwareInformation;
+			productReference = F370CE5A1E4184B900CE53DB /* HardwareInformation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F370CE521E4184B900CE53DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Com;
+				TargetAttributes = {
+					F370CE591E4184B900CE53DB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F370CE551E4184B900CE53DB /* Build configuration list for PBXProject "HardwareInformation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F370CE511E4184B900CE53DB;
+			productRefGroup = F370CE5B1E4184B900CE53DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F370CE591E4184B900CE53DB /* HardwareInformation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F370CE581E4184B900CE53DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F370CE641E4184B900CE53DB /* Assets.xcassets in Resources */,
+				F370CE671E4184B900CE53DB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F370CE561E4184B900CE53DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F370CE621E4184B900CE53DB /* main.m in Sources */,
+				F370CE5F1E4184B900CE53DB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F370CE651E4184B900CE53DB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F370CE661E4184B900CE53DB /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F370CE691E4184B900CE53DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F370CE6A1E4184B900CE53DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F370CE6C1E4184B900CE53DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HardwareInformation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HardwareInformation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F370CE6D1E4184B900CE53DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HardwareInformation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HardwareInformation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F370CE551E4184B900CE53DB /* Build configuration list for PBXProject "HardwareInformation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F370CE691E4184B900CE53DB /* Debug */,
+				F370CE6A1E4184B900CE53DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F370CE6B1E4184B900CE53DB /* Build configuration list for PBXNativeTarget "HardwareInformation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F370CE6C1E4184B900CE53DB /* Debug */,
+				F370CE6D1E4184B900CE53DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F370CE521E4184B900CE53DB /* Project object */;
+}
